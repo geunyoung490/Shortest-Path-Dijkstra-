@@ -15,11 +15,10 @@
 ## 4. java 코드
 - 코드는 이근영님이 다 작성하셨습니다!
 ![image](https://user-images.githubusercontent.com/80517119/114001026-86433580-9896-11eb-8579-8fe851a656de.png)
-
 ![image](https://user-images.githubusercontent.com/80517119/114000613-1fbe1780-9896-11eb-8519-85576b112f82.png)
 ![image](https://user-images.githubusercontent.com/80517119/114000775-4419f400-9896-11eb-8882-e781639e32d9.png)
 
 ## 5. 실행 결과
 
-![image](https://user-images.githubusercontent.com/80517119/113999878-6a8b5f80-9895-11eb-89b0-dbe5b828014c.png)
+![image](https://user-images.githubusercontent.com/80517119/114003228-89d7bc00-9898-11eb-96b1-30540ddb66a0.png)
 
