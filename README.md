@@ -64,13 +64,8 @@
     - 1번의 경우 : 아직 방문하지 않은 정점의 가중치 값을 ```d[i]```에 넣는다.
     - 2번의 경우 :```getsmallIndex()```을 이용해서 가장 최소 거리의 정점을 ```current```에 넣어준다. 또한 ```visited[current]```에 방문표시를 해주고 다시 ```for```을 돌린다.
     - 3번의 경우 :```current```의 자기자신의 가중치(0)를 제외하고 방문하지 않은 점들 중. 다른 점을 거쳐서 가는 가중치보다 바로 가는 가중치가 더 클경우 ```d[j]```을 더 작은 값으로 갱신한다.
-   
-
-
-
-
-
-## 4. 전체 코드
+---
+### 전체코드
 ![image](https://user-images.githubusercontent.com/80517119/114003741-f8b51500-9898-11eb-93c6-240cdf6db500.png)
    ```
    public class ShortPath {
@@ -135,10 +130,15 @@
     }
 }
 ```
-  
-## 5. 실행 결과
+---
+### 실행 결과
 ![image](https://user-images.githubusercontent.com/80517119/114003653-e2a75480-9898-11eb-8fdd-904556ddd70c.png)
 
 ![image](https://user-images.githubusercontent.com/80517119/114003926-200be200-9899-11eb-9ef4-a4adb796ca4a.png)
 
-
+## 4. 성능비교 
+-  for문이 (n-1)번 반복될때 
+   * 1번 반복 될때 getsmallIndex()에서 min_index를 찾는데 O(n)시간이 걸린다.
+   * min_index에 연결된 점의 수가 최대 (n-1)개 이므로, 각 d[w]를 갱신하는데 걸리는 시간은 O(n)이다.
+>> 시간 복잡도는 (n-1)x(O(n)+O(n)) = O(n^2)이다.
+-  우선순위 큐를 이용하면 시간복잡도는 O(logn)로 훨씬 성능이 좋아진다.
