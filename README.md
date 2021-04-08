@@ -10,11 +10,18 @@
 - 주어진 출발점에서 시작합니다.
 - 출발점으로부터 최단 거리가 확정되지 않은 점들 중에서 출발점으로부터 가장 가까운 점을 추가하고, 그 점의 최단 거리를 확정합니다.
 
-## 3. 다익스트라 알고리즘(예제)
-<img src="https://user-images.githubusercontent.com/80590172/113999979-842ca700-9895-11eb-96a4-286cb9c00682.PNG" width = "400" height ="200">
+## 3. 
 
+## 4. java 코드
+- 코드는 이근영님이 다 작성하셨습니다!
+![image](https://user-images.githubusercontent.com/80517119/114001026-86433580-9896-11eb-8579-8fe851a656de.png)
 
+![image](https://user-images.githubusercontent.com/80517119/114000613-1fbe1780-9896-11eb-8519-85576b112f82.png)
+![image](https://user-images.githubusercontent.com/80517119/114000775-4419f400-9896-11eb-8882-e781639e32d9.png)
 
+## 5. 실행 결과
 
-## 5. 사진 출처
+![image](https://user-images.githubusercontent.com/80517119/113999878-6a8b5f80-9895-11eb-89b0-dbe5b828014c.png)
+
+## 6. 사진 출처
 다익스트라 알고리즘 https://namu.wiki/w/다익스트라%20알고리즘
