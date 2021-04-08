@@ -6,7 +6,7 @@
 
 ## 2. 다익스트라 알고리즘
 ![image](https://user-images.githubusercontent.com/80517119/113986755-8b998380-9888-11eb-99c7-639aadede733.png)
-
+사진 출처 https://namu.wiki/w/다익스트라%20알고리즘
 - 주어진 출발점에서 시작합니다.
 - 출발점으로부터 최단 거리가 확정되지 않은 점들 중에서 출발점으로부터 가장 가까운 점을 추가하고, 그 점의 최단 거리를 확정합니다.
 
@@ -23,5 +23,3 @@
 
 ![image](https://user-images.githubusercontent.com/80517119/113999878-6a8b5f80-9895-11eb-89b0-dbe5b828014c.png)
 
-## 6. 사진 출처
-다익스트라 알고리즘 https://namu.wiki/w/다익스트라%20알고리즘
