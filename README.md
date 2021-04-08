@@ -22,5 +22,6 @@
 ## 5. 실행 결과
 ![image](https://user-images.githubusercontent.com/80517119/114003653-e2a75480-9898-11eb-8fdd-904556ddd70c.png)
 
-![image](https://user-images.githubusercontent.com/80517119/114003228-89d7bc00-9898-11eb-96b1-30540ddb66a0.png)
+![image](https://user-images.githubusercontent.com/80517119/114003926-200be200-9899-11eb-9ef4-a4adb796ca4a.png)
+
 
