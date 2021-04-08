@@ -38,37 +38,42 @@
     - ```for``` : 아직 방문하지 않았고 ```d[i]```가 ```INF```가 아닌 것 중에서 ```min```보다 ```d[i]```가 더 작을 떄,  ```min```과 그 ```index```를 계속 갱신해준다.
 
 3. 다익스트라를 수행하는 함수
-   ```
+    ```
     public static void dijkstra ( int start){
         visited[start]=true;
         d[start]=0;
         for(int i =0; i<10; i++){
             if(!visited[i]){
                 d[i]= g[start][i];
-            }
-        }->1
+            }//-->1
+        }
 
         for(int i =0;i<9;i++){
             int current = getSmallIndex();
-            visited[current] = true;-->2
+            visited[current] = true;//-->2
             for(int j =0; j<10;j++){
                 if(!visited[j]&&g[current][j]!=0){
                     if(d[current]+g[current][j]< d[j]){
                         d[j]=d[current]+g[current][j];
-                    }-->3
+                    }//-->3
                 }
             }
         }
     }
-  ```
-  
-  - 1번의 경우 : 아직 방문하지 않은 정점의 가중치 값을 ```d[i]```에 넣는다.
-  - 2번의 경우 :```getsmallIndex()```을 이용해서 가장 최소 거리의 정점을 ```current```에 넣어준다. 또한 ```visited[current]```에 방문표시를 해주고 다시 ```for```을 돌린다.
-  - 3번의 경우 :```current```의 자기자신의 가중치(0)를 제외하고 방문하지 않은 점들 중. 다른 점을 거쳐서 가는 가중치보다 바로 가는 가중치가 더 클경우 ```d[j]```을 더 작은 값으로 갱신한다.
---- 
-다음은 전체 코드입니다.
-```
-public class ShortPath {
+    ```
+    - 1번의 경우 : 아직 방문하지 않은 정점의 가중치 값을 ```d[i]```에 넣는다.
+    - 2번의 경우 :```getsmallIndex()```을 이용해서 가장 최소 거리의 정점을 ```current```에 넣어준다. 또한 ```visited[current]```에 방문표시를 해주고 다시 ```for```을 돌린다.
+    - 3번의 경우 :```current```의 자기자신의 가중치(0)를 제외하고 방문하지 않은 점들 중. 다른 점을 거쳐서 가는 가중치보다 바로 가는 가중치가 더 클경우 ```d[j]```을 더 작은 값으로 갱신한다.
+   
+
+
+
+
+
+## 4. 전체 코드
+![image](https://user-images.githubusercontent.com/80517119/114003741-f8b51500-9898-11eb-93c6-240cdf6db500.png)
+   ```
+   public class ShortPath {
     public static int INF = 10000000;
     public static int g[][] = {
             {0,12,15,INF,INF,INF,INF,INF,INF,INF},
@@ -105,17 +110,17 @@ public class ShortPath {
         for(int i =0; i<10; i++){
             if(!visited[i]){
                 d[i]= g[start][i];
-            }
+            }//-->1
         }
 
         for(int i =0;i<9;i++){
             int current = getSmallIndex();
-            visited[current] = true;
+            visited[current] = true;//-->2
             for(int j =0; j<10;j++){
                 if(!visited[j]&&g[current][j]!=0){
                     if(d[current]+g[current][j]< d[j]){
                         d[j]=d[current]+g[current][j];
-                    }
+                    }//-->3
                 }
             }
         }
@@ -127,19 +132,11 @@ public class ShortPath {
         for(int i =1;i<10;i++){
             System.out.print(d[i]+" ");
         }
-
-
     }
 }
 ```
-## 3. java 코드
-- 코드는 이근영님이 다 작성하셨습니다!
-![image](https://user-images.githubusercontent.com/80517119/114003741-f8b51500-9898-11eb-93c6-240cdf6db500.png)
-
-![image](https://user-images.githubusercontent.com/80517119/114000613-1fbe1780-9896-11eb-8519-85576b112f82.png)
-![image](https://user-images.githubusercontent.com/80517119/114000775-4419f400-9896-11eb-8882-e781639e32d9.png)
-
-## 4. 실행 결과
+  
+## 5. 실행 결과
 ![image](https://user-images.githubusercontent.com/80517119/114003653-e2a75480-9898-11eb-8fdd-904556ddd70c.png)
 
 ![image](https://user-images.githubusercontent.com/80517119/114003926-200be200-9899-11eb-9ef4-a4adb796ca4a.png)
