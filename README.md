@@ -14,11 +14,13 @@
 
 ## 4. java 코드
 - 코드는 이근영님이 다 작성하셨습니다!
-![image](https://user-images.githubusercontent.com/80517119/114001026-86433580-9896-11eb-8579-8fe851a656de.png)
+![image](https://user-images.githubusercontent.com/80517119/114003741-f8b51500-9898-11eb-93c6-240cdf6db500.png)
+
 ![image](https://user-images.githubusercontent.com/80517119/114000613-1fbe1780-9896-11eb-8519-85576b112f82.png)
 ![image](https://user-images.githubusercontent.com/80517119/114000775-4419f400-9896-11eb-8882-e781639e32d9.png)
 
 ## 5. 실행 결과
+![image](https://user-images.githubusercontent.com/80517119/114003653-e2a75480-9898-11eb-8fdd-904556ddd70c.png)
 
 ![image](https://user-images.githubusercontent.com/80517119/114003228-89d7bc00-9898-11eb-96b1-30540ddb66a0.png)
 
